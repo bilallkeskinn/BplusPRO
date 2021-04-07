@@ -1,0 +1,218 @@
+/**
+ * @author Sinan Tekmil
+ * @copyright 2014 http://www.veblebi.com
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+#nav-ul {
+  font-family: 'Karla', sans-serif;
+}
+
+#nav-ul button:hover {
+  background-color: #F7941D;
+}
+
+#nav-ul button a:hover {
+  color: #fff !important;
+}
+
+nav a {
+  text-decoration: none;
+  color: #93a1a7;
+  display: block;
+}
+
+nav a:hover {
+  color: #23282f;
+}
+
+nav>ul>li>a {
+  padding: 20px;
+}
+
+nav>ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #0080C0;
+  display: block;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+}
+
+#nav-ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+}
+
+/* sub menu */
+nav>ul>li.dropdown>ul {
+  position: absolute;
+  width: 200px !important;
+  padding: 0;
+  height: 1px;
+  overflow: hidden;
+  margin-top: -10px;
+  background-color: #E2534B;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+nav ul li.dropdown>ul>li {
+  display: block;
+}
+
+nav ul li.dropdown>ul>li {
+  padding: 0 !important;
+  font-size: 12px;
+  width: 88px;
+  position: relative !important;
+  margin-left: 10px;
+  text-align: center;
+}
+
+nav ul li.dropdown>ul>li>a {
+  padding: 10px;
+  font-size: 13px;
+  background-color: #E5655D;
+  border-radius: 5px;
+  color: #fff;
+}
+
+nav ul li.dropdown:hover>ul {
+  z-index: 999;
+  opacity: 1;
+  display: block;
+  /*overflow:auto;*/
+  overflow: initial;
+  margin-top: 0;
+  height: auto !important;
+}
+
+#nav-toggle,
+#nav-toggle-alt {
+  width: 100%;
+  background: #0072A8;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+  color: white;
+}
+
+/* sub sub menu */
+ul.sub-sub {
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  left: 0px;
+  padding: 10px;
+  list-style: none;
+  width: 140px;
+  margin: 0;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+nav ul li.dropdown>ul>li>ul>li {
+  display: block;
+}
+
+nav ul li.dropdown>ul>li>ul>li:hover {
+  background-color: #0072A8;
+}
+
+nav ul li.dropdown>ul>li>ul>li>a {
+  padding: 10px !important;
+}
+
+nav ul li.dropdown>ul>li:hover>ul {
+  opacity: 1;
+  left: 102px;
+}
+
+/********* sub sub menu bitti ************/
+
+#nav-toggle-alt {
+  display: none;
+}
+
+
+
+/* responsive max-width 760px */
+@media (max-width: 760px) {
+  nav ul {
+    display: none;
+  }
+
+  nav ul li {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+  }
+
+  #nav-toggle {
+    display: block;
+  }
+
+ 
+
+  nav ul li.dropdown>ul {
+    position: relative;
+    overflow: auto;
+    display: block;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li.dropdown>ul li a:hover {
+    background-color: #006A9D !important;
+  }
+
+  nav ul li.dropdown>ul>li>a {
+    padding-left: 30px;
+  }
+
+ 
+}
+
+@media (min-width: 760px) {
+  #nav-toggle-alt {
+    display: none !important;
+  }
+}

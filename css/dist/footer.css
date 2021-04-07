@@ -1,0 +1,96 @@
+.footer {
+    padding-top: 0px;
+    background-image: url("../dist/about-images/left.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-size: contain;
+    height: 299px;
+  }
+  .footer .footer-links {
+    text-align: center;
+  }
+  .footer .footer-links.links h1 {
+    margin-bottom: 30px;
+  }
+  .footer .footer-links h1 {
+    margin-bottom: 30px;
+  }
+  .footer .footer-links.link {
+    padding-top: 65px;
+  }
+  .footer .footer-links h1 {
+    font-size: 18px;
+  }
+  .footer .footer-links ul li {
+    font-size: 12px;
+    color: #93a1a7;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  .footer .footer-links ul span {
+    color: #3e4146;
+  }
+  .footer .input {
+    font-family: "Roboto Slab", serif;
+  }
+  .footer .input h6 {
+    width: 44px;
+    height: 44px;
+    background: #29C2E1;
+    padding: 15px 12px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .input{
+   align-items: center;
+  }
+  .footer .input input {
+    width: 220px;
+    height: 44px;
+    border: solid 1px #DDE8EA;
+    color: #93a1a7;
+    letter-spacing: 1px;
+    text-indent: 20px;
+    outline: none;
+  }
+  .footer .input input::placeholder {
+    font-size: 12px;
+  }
+  .footer i {
+    color: #ADBDC1;
+    margin-right: 10px;
+    padding-top: 8px;
+  }
+  .footer p {
+    font-size: 14px;
+    color: #93a1a7;
+    letter-spacing: 1px;
+  }
+  .footer .about {
+    margin-bottom: 82px;
+  }
+  
+  .news {
+    text-align: left;
+  }
+  
+  .back h1#ltd {
+    text-align: center;
+    border-top: solid 1px #ddd;
+    padding-top: 23px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #93a1a7;
+  }
+  .footer-links.img{
+   padding: 15px 40px 0 0;
+  }
+  .footer-links ul li:hover{
+   color: #F7941D;
+   cursor: pointer;
+  }
+
+  
+  /* FOOTER SECTİON */

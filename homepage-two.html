@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/dist/reset.css">
+    <link rel="stylesheet" href="css/dist/homepage-two.css">
+    <link rel="stylesheet" href="css/dist/responsive-nav.css">
+    <!-- RESPONSIVE MENU-->
+    <link rel="stylesheet" href="css/dist/responsive-menu.css">
+    <!-- RESPONSIVE MENU-->
+    <title>Home Page Two</title>
+</head>
+
+<body>
+    <div class="flex">
+         <!-- RESPONSIVE MENU-->
+     <div class="responsive">         
+        <div class="media">
+            <div class="logo">
+                <img src="css/dist/about-images/logo.png" alt="">
+            </div>
+            <a href="#" class="openBtn" onClick="openNav()"><i class="fa fa-bars"></i></a>
+          </div>
+          <div id="nav" class="overlay">
+            <a href="#" class="closeBtn" onClick="closeNav()"><i class="fas fa-times"></i></a>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">NEWS</a></li>
+              <li><a href="#">PORTFOLIO</a></li>
+              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">PAGES</a></li>
+            </ul>
+          </div>
+    </div>
+    <!-- RESPONSIVE MENU-->
+    <!-- HEADER-CALL -->
+    <div class="header-call">
+        <h6>Call Us :<span> 9855 445 444</span></h6>
+    </div>
+    <!-- HEADER-CALL -->
+     <!-- HEADER SECTİON -->
+     <div class="container nav-menu">
+        <nav>
+            <div id="nav-toggle" onclick="toggle()"></div>
+            <ul id="nav-ul " class="nav-ul">
+                <div class="col-md-5 logo">
+                    <img src="css/dist/about-images/logo.png" alt="">
+                </div>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">NEWS</a></li>
+                <!-- #sub menu -->
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SERVİCE</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li class="dropdown">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#">PAGES</a>
+                        </div>
+                        <div class="col-md-3 fa-down">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <ul class="blog">
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">WHY CHOOUSE US</a></li>
+                        <li><a href="#">PRİCİNG & PLANS</a></li>
+                        <li><a href="#">HELP & FAQ</a></li>
+                    </ul>
+                </li>
+                <button><a href="#">CONTACT US</a></button>
+            </ul>
+            <div id="nav-toggle-alt" onclick="toggle()">X</div>
+        </nav>
+    </div>
+    <!-- HEADER SECTİON -->
+    <!-- HEADER-FLUİD SECTİON -->
+    <div class="header-fluid container-fluid">
+        <div class="header-text">
+            <h6>BOOST UP YOUR</h6>
+            <h1>LOCAL BUSINESS</h1>
+            <div class="button">
+                <a href="#"><button>CONTACT US</button></a>
+            </div>
+        </div>
+        <div class="header-input">
+            <div class="input-text">
+                <h6>SIGN UP</h6>
+                <p>NEWSLETTER</p>
+            </div>
+            <form action="">
+                <span>:</span><input type="text" placeholder="NAME" class="before" required>
+                <input type="email" placeholder="EMAIL ADRESS" required>
+                <button type="submit">SUBSCRIBE NOW</button>
+            </form>
+        </div>
+    </div>
+    <!-- HEADER-FLUİD SECTİON -->
+    <!-- FEATURES SECTİON -->
+    <div class="container-fluid features">
+        <div class="container">
+            <div class="features-text">
+                <h1>OUR</h1>
+                <p>SERVICES</p>
+            </div>
+            <div class="row our">
+                <div class="col-md-4 col-sm-12 our-features">
+                    <div class="row feat">
+                        <div class="col-md-6 col-sm-12 feat-img">
+                            <img src="css/dist/homepage-images/entry.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 dataentry">
+                            <h1>Data Entry</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 our-features">
+                    <div class="row feat">
+                        <div class="col-md-6 col-sm-12 feat-img">
+                            <img src="css/dist/homepage-images/magagent.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 dataentry">
+                            <h1>Client management</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 our-features">
+                    <div class="row feat">
+                        <div class="col-md-6 col-sm-12 feat-img">
+                            <img src="css/dist/homepage-images/Untitled-1.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 dataentry">
+                            <h1>Better Communication</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row our">
+                <div class="col-md-4 col-sm-12 our-features">
+                    <div class="row feat">
+                        <div class="col-md-6 col-sm-12 feat-img">
+                            <img src="css/dist/homepage-images/well.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 dataentry">
+                            <h1>Well analyzing team</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 our-features">
+                    <div class="row feat">
+                        <div class="col-md-6 col-sm-12 feat-img">
+                            <img src="css/dist/homepage-images/support.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 dataentry">
+                            <h1>24 hour support</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 our-features">
+                    <div class="row feat">
+                        <div class="col-md-6 col-sm-12 feat-img">
+                            <img src="css/dist/homepage-images/keep.png" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 dataentry">
+                            <h1>Keeping business data</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FEATURES SECTİON -->
+    <!-- HAPPY-CLİENT SECTİON -->
+    <div class="happy-client container-fluid">
+        <div class="container">
+            <div class="happy-text">
+                <h6>HAPPY</h6>
+                <h1>CLIENTS</h1>
+                <div class="icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type
+                    specimen book. It has survived not only five centuries.</p>
+                <h5>BY</h5>
+                <h4>SUNITHA DANIAL</h4>
+            </div>
+            <div class="happy-image">
+                <img src="css/dist/homepageTwo-images/hood.png" alt="">
+                <img src="css/dist/homepageTwo-images/low.png" alt="">
+                <img src="css/dist/homepageTwo-images/low1.png" alt="">
+                <div class="image">
+                    <img src="css/dist/homepageTwo-images/asel.png" alt="">
+                    <img src="css/dist/homepageTwo-images/wagneypng.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HAPPY-CLİENT SECTİON -->
+    <!-- PRICING SECTİON -->
+    <div class="container piecing">
+        <div class="pie-text">
+            <h1>OUR</h1>
+            <p>PRICING</p>
+        </div>
+        <div class="row pricing">
+            <div class="col-md-3 commend">
+                <h1>PERSONEL</h1>
+                <p>From <span>$100</span> per month</p>
+                <div class="for">
+                    <h6>Business Support</h6>
+                    <h6>Business Analysing</h6>
+                    <h6>24 hour support</h6>
+                </div>
+                <div class="submit">
+                    <a href="#"><button type="submit" id="item">START NOW</button></a>
+                </div>
+            </div>
+            <div class="recommend">
+                <h6>Recommend</h6>
+            </div>
+            <div class="col-md-3 commend">
+                <h1>BUSINESS</h1>
+                <p>From <span>$100</span> per month</p>
+                <div class="for">
+                    <h6>Business Support</h6>
+                    <h6>Business Analysing</h6>
+                    <h6>24 hour support</h6>
+                    <h6>Client management</h6>
+                </div>
+                <div class="submit">
+                    <a href="#"><button type="submit" id="start">START NOW</button></a>
+                </div>
+            </div>
+            <div class="col-md-3 commend">
+                <h1>GOLD</h1>
+                <p>From <span>$100</span> per month</p>
+                <div class="for">
+                    <h6>24 hour support</h6>
+                    <h6>Client management</h6>
+                    <h6>Keeping business data</h6>
+                </div>
+                <div class="submit">
+                    <a href="#"><button type="submit" id="now">START NOW</button></a>
+                </div>
+            </div>
+
+            <div class="col-md-3 commend">
+                <h1>ULTIMATE</h1>
+                <p>From <span>$100</span> per month</p>
+                <div class="for">
+                    <h6>24 hour support</h6>
+                    <h6>Client management</h6>
+                    <h6>Keeping business data</h6>
+                    <h6>Better Communication</h6>
+                </div>
+                <div class="submit">
+                    <a href="#"><button type="submit" id="submit">START NOW</button></a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <!-- PRICING SECTİON -->
+    <!-- TEAM-OFFİCİALS SECTİON -->
+    <div class="team-officials container-fluid">
+        <div class="team-people container">
+            <div class="row cont">
+                <div class="official-text">
+                    <h5>OUR</h5>
+                    <p>TEAM</p>
+                </div>
+                <div class="people col-md-3 col-sm-12">
+                    <img src="css/dist/about-images/asel.png" alt="">
+                    <div class="people-text">
+                        <h6>Mr. Ramgopalavarma</h6>
+                        <p>Data Specialist</p>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+                <div class="people col-md-3 col-sm-12">
+                    <img src="css/dist/about-images/denklov.png" alt="">
+                    <div class="people-text">
+                        <h6>Madhavikutti Menon</h6>
+                        <p>Client Support</p>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+                <div class="people col-md-3 col-sm-12">
+                    <img src="css/dist/about-images/sea-smile.png" alt="">
+                    <div class="people-text">
+                        <h6>Dr.Venkittaraman</h6>
+                        <p>Client Management</p>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+                <div class="people col-md-3 col-sm-12">
+                    <img src="css/dist/about-images/wagneypng.png" alt="">
+                    <div class="people-text">
+                        <h6>George Danial</h6>
+                        <p>Communication</p>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TEAM-OFFİCİALS SECTİON -->
+    <!-- BLOG-POST SECTİON -->
+    <div class="blog-post container">
+        <div class="blog-text">
+            <h6>OUR</h6>
+            <p>BLOG POST</p>
+        </div>
+        <div class="joly">
+            <h6>15</h6>
+            <p>JULY</p>
+        </div>
+        <div class="blog-image">
+            <img src="css/dist/homepageTwo-images/twoimage.png" alt="">
+        </div>
+        <div class="row text">
+            <div class="col-md-6">
+                <h6><span>Blog</span> Heading here</h6>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged</p>
+                    <a href="#"><button type="submit">READ MORE</button></a>
+            </div>
+            <div class="col-md-6">
+                <div class="row admin">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <div class="col-md-10 by">
+                                <a href="#"><h6>BY ADMIN</h6></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                       <div class="row">
+                           <div class="col-md-2">
+                            <i class="fas fa-comments"></i>
+                           </div>
+                           <div class="col-md-10">
+                            <a href="#"><h6>20 COMMENT</h6></a>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BLOG-POST SECTİON -->
+    <!-- FOOTER SECTİON -->
+    <div class="container-fluid footer">
+        <div class="container back">
+            <div class="row about">
+                <div class="footer-links col-md-2">
+                    <img src="css/dist/about-images/logo.png" alt="">
+                </div>
+                <div class="footer-links col-md-2">
+                    <h1>Menu</h1>
+                    <ul>
+                        <li>HOME</li>
+                        <li>ABOUT US</li>
+                        <li>FEATURES</li>
+                        <li>PORTFOLIO</li>
+                    </ul>
+                </div>
+                <div class="footer-links link col-md-2">
+                    <ul>
+                        <li>SERVICE</li>
+                        <li>BLOG</li>
+                        <li>BLOG PAGES</li>
+                    </ul>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+                <div class="footer-links col-md-3">
+                    <h1>Contact</h1>
+                    <ul>
+                        <li><span>ADRESS:</span>GEETHAJALİ STREET</li>
+                        <li>SECOND FLOR: 88569</li>
+                        <li><span>PHONE :</span>+988 9956 222</li>
+                        <li><span>EMAIL :</span>INFO@BUSSINESS.COM</li>
+                    </ul>
+                </div>
+                <div class="footer-links links col-md-3">
+                    <div class="news">
+                        <h1>Newsletter</h1>
+                    <p>SIGN UP YOUR NEWSLETTER</p>
+                    </div>
+                   <div class="row input">
+                       <div class="col-md-8 input">
+                        <form action="">
+                            <input type="email" placeholder="EMAIL ADDRESS" pattern="[0-9] [0-9] [0-9]" minlength="5" maxlength="12" required>
+                            <button type="submit"><h6>GO</h6></button>
+                        </form>
+                       </div>
+                       
+                   </div>
+                </div>
+            </div>
+           <div class="container-fluid back">
+            <h1 id="ltd">© 2015 business Ltd. allright reserved</h1>
+           </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/responsive-menu.js"></script>
+    <!-- FOOTER SECTİON -->
+
+</body>
+
+</html>

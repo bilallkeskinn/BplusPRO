@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/dist/reset.css">
+    <link rel="stylesheet" href="css/dist/blog.css">
+    <link rel="stylesheet" href="css/dist/responsive-nav.css">
+    <!-- BOOTSTRAP SLİDER  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- BOOTSTRAP SLİDER  -->
+    <!-- RESPONSIVE MENU-->
+    <link rel="stylesheet" href="css/dist/responsive-menu.css">
+    <!-- RESPONSIVE MENU-->
+    <title>B-Plus Projects BLOG</title>
+</head>
+
+<body>
+    <div class="flex">
+        <!-- RESPONSIVE MENU-->
+        <div class="responsive">
+            <div class="media">
+                <div class="logo">
+                    <img src="css/dist/about-images/logo.png" alt="">
+                </div>
+                <a href="#" class="openBtn" onClick="openNav()"><i class="fa fa-bars"></i></a>
+            </div>
+            <div id="nav" class="overlay">
+                <a href="#" class="closeBtn" onClick="closeNav()"><i class="fas fa-times"></i></a>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">PAGES</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- RESPONSIVE MENU-->
+        <!-- HEADER-UP SECTİON -->
+        <div class="container-fluid header-up">
+            <div class="container header-temp">
+                <div class="row temp">
+                    <div class="col-md-8 col-sm-12 premium">
+                        <h6>premium business template</h6>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="col-md-10 number">
+                                <a href="#">8877-8564-222</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="col-md-10 number">
+                                <a href="#">info@business.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HEADER-UP SECTİON -->
+        <!-- HEADER SECTİON -->
+        <div class="container nav-menu">
+            <nav>
+                <div id="nav-toggle" onclick="toggle()"></div>
+                <ul id="nav-ul " class="nav-ul">
+                    <div class="col-md-5 logo">
+                        <img src="css/dist/about-images/logo.png" alt="">
+                    </div>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <!-- #sub menu -->
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">SERVİCE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li class="dropdown">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#">PAGES</a>
+                            </div>
+                            <div class="col-md-3 fa-down">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <ul class="blog">
+                            <li><a href="#">GALLERY</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="#">WHY CHOOUSE US</a></li>
+                            <li><a href="#">PRİCİNG & PLANS</a></li>
+                            <li><a href="#">HELP & FAQ</a></li>
+                        </ul>
+                    </li>
+                    <button><a href="#">CONTACT US</a></button>
+                </ul>
+                <div id="nav-toggle-alt" onclick="toggle()">X</div>
+            </nav>
+        </div>
+        <!-- HEADER SECTİON -->
+        <!-- HEADER-ABOUT SECTİON -->
+        <div class="container-fluid header-about">
+            <div class="header-content">
+                <h1>BLOG PAGE</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing</p>
+            </div>
+        </div>
+        <!-- HEADER-ABOUT SECTİON -->
+        <!-- BLOG SLİDER SECTİON -->
+        <div class="container blog-slider">
+            <div class="row">
+                <div class="col-md-9">
+                    <img src="css/dist/blog-images/slider-img.png" alt="">
+                </div>
+                <div class="col-md-3 searc">
+                    <div class="search-box" id="search">
+                        <input type="search" placeholder="Search now.." id="input">
+                        <i class="fa fa-search" id="sea"></i>
+                    </div>
+                    <div class="categories">
+                        <h1>Categories</h1>
+                        <ul>
+                            <div class="links row">
+                                <div class="col-md-9">
+                                    <a href="#">
+                                        <li>Lipsum Category</li>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="links row">
+                                <div class="col-md-9">
+                                    <a href="#">
+                                        <li>Ipsum generators.</li>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="links row">
+                                <div class="col-md-9">
+                                    <a href="#">
+                                        <li>embarrassing hidden</li>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="links row">
+                                <div class="col-md-9">
+                                    <a href="#">
+                                        <li>randomised words</li>
+                                    </a>
+                                </div>
+                                <div class="links col-md-3">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="links row">
+                                <div class="col-md-9">
+                                    <a href="#">
+                                        <li>slightly believable</li>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="links row">
+                                <div class="col-md-9">
+                                    <a href="#">
+                                        <li>variations of passages</li>
+                                    </a>
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#"><i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BLOG SLİDER SECTİON -->
+        <!-- BLOG-HEAD SECTİON -->
+        <div class="blog-head container">
+            <div class="row">
+                <div class="col-md-9 head">
+                    <h1>BLOG HEADING</h1>
+                    <h6><a href="#"><span>DATE :</span></a> 03 DEC 2015 | <a href="#"><span>POSTED BY :</span></a> ADMIN
+                    </h6>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.
+                    </p>
+                    <div class="button">
+                        <button>READ MORE</button>
+                    </div>
+                </div>
+                <div class="col-md-3 head-links">
+                    <h1>Popular Post</h1>
+                    <div class="row post">
+                        <div class="col-md-4">
+                            <img src="css/dist/blog-images/low1.png" alt="">
+                        </div>
+                        <div class="col-md-8 post-text">
+                            <a href="#">
+                                <h5>Post Heading Here</h5>
+                            </a>
+                            <a href="#">
+                                <h6>10 : Comments</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row post">
+                        <div class="col-md-4">
+                            <img src="css/dist/blog-images/low.png" alt="">
+                        </div>
+                        <div class="col-md-8 post-text">
+                            <a href="#">
+                                <h5>Post Heading Here</h5>
+                            </a>
+                            <a href="#">
+                                <h6>8 : Comments</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row post">
+                        <div class="col-md-4">
+                            <img src="css/dist/blog-images/low2.png" alt="">
+                        </div>
+                        <div class="col-md-8 post-text">
+                            <a href="#">
+                                <h5>Post Heading Here</h5>
+                            </a>
+                            <a href="#">
+                                <h6>20 : Comments</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BLOG-HEAD SECTİON -->
+        <!-- SLİDER-ACTİVE SECTİON -->
+        <div class="container carousel">
+            <div class="row">
+                <div class="col-md-9">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="css/dist/blog-images/slider2.png" alt="" style="width:100%;">
+                                <div class="text">
+                                    <h1>TESTİMONİAL</h1>
+                                    <p>BLOG SLİDER TEXT SECTİON</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="css/dist/blog-images/slider3.png" alt="" style="width:100%;">
+                                <div class="text">
+                                    <h1>TESTİMONİAL</h1>
+                                    <p>BLOG SLİDER TEXT SECTİON</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="css/dist/blog-images/slider.png" alt="" style="width:100%;">
+                                <div class="text">
+                                    <h1>TESTİMONİAL</h1>
+                                    <p>BLOG SLİDER TEXT SECTİON</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right control -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 slider-tags">
+                    <h1>Tags</h1>
+                    <a href="#"><button id="business">BUSINESS</button></a>
+                    <a href="#"><button id="idea">IDEA</button></a>
+                    <a href="#"><button id="lipsum">LIPSUM</button></a>
+                    <a href="#"><button id="post">FEATURED POSTS</button></a>
+                    <a href="#"><button id="blog">BLOG POST</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- SLİDER-ACTİVE SECTİON -->
+        <!-- SLİDER-ACTİVE-DOWN SECTİON-->
+        <div class="blog-head bottom container">
+            <div class="head">
+                <h1>BLOG HEADING</h1>
+                <h6><a href="#"><span>DATE :</span></a> 03 DEC 2015 | <a href="#"><span>POSTED BY :</span></a> ADMIN
+                </h6>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                    anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.
+                </p>
+                <div class="button">
+                    <button>READ MORE</button>
+                </div>
+            </div>
+        </div>
+        <!-- SLİDER-ACTİVE-DOWN SECTİON-->
+        <!-- VIDEO SECTİON -->
+        <div class="video container">
+            <video width="828" height="334" controls>
+                <source src="mp4/ayaz.mp4" type="video/mp4">
+                <source src="mp4/ayaz.mp4/ogg" type="video/ogg">
+                Desteklenmiyor.
+            </video>
+        </div>
+        <div class="blog-head bottom container">
+            <div class="head">
+                <h1>BLOG HEADING</h1>
+                <h6><a href="#"><span>DATE :</span></a> 03 DEC 2015 | <a href="#"><span>POSTED BY :</span></a> ADMIN
+                </h6>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                    anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.
+                </p>
+                <div class="button">
+                    <button>READ MORE</button>
+                </div>
+            </div>
+        </div>
+        <!-- VIDEO SECTİON -->
+        <!-- MP3 SECTİON -->
+        <div class="container music-section">
+            <audio controls>
+
+                <source src="mp3/baba-feat-mengelez.mp3.ogg" type="audio/ogg">
+
+                <source src="mp3/baba-feat-mengelez.mp3" type="audio/mpeg">
+
+                Tarayıcınız audio(ses) öğesini desteklemiyor.
+
+            </audio>
+            <div class="blog-head bottom container">
+                <div class="head">
+                    <h1>BLOG HEADING</h1>
+                    <h6><a href="#"><span>DATE :</span></a> 03 DEC 2015 | <a href="#"><span>POSTED BY :</span></a> ADMIN
+                    </h6>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+                        anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators.
+                    </p>
+                    <div class="button">
+                        <a href="#"><button>1</button></a>
+                        <a href="#"><button>2</button></a>
+                        <a href="#"><button>3</button></a>
+                        <a href="#"><button>4</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MP3 SECTİON -->
+        <!-- FOOTER-SECTİON -->
+        <div class="container-fluid footer">
+            <div class="container back">
+                <div class="row about">
+                    <div class="footer-links img col-md-2">
+                        <img src="css/dist/about-images/logo.png" alt="">
+                    </div>
+                    <div class="footer-links col-md-2">
+                        <h1>Menu</h1>
+                        <ul>
+                            <li>HOME</li>
+                            <li>ABOUT US</li>
+                            <li>FEATURES</li>
+                            <li>HOME</li>
+                        </ul>
+                    </div>
+                    <div class="footer-links link col-md-2">
+                        <ul>
+                            <li>SERVICE</li>
+                            <li>BLOG</li>
+                            <li>BLOG PAGES</li>
+                        </ul>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                    <div class="footer-links col-md-3">
+                        <h1>Contact</h1>
+                        <ul>
+                            <li><span>ADRESS:</span>GEETHAJALİ STREET</li>
+                            <li>SECOND FLOR: 88569</li>
+                            <li><span>PHONE :</span>+988 9956 222</li>
+                            <li><span>EMAIL :</span>INFO@BUSSINESS.COM</li>
+                        </ul>
+                    </div>
+                    <div class="footer-links links col-md-3">
+                        <div class="news">
+                            <h1>Newsletter</h1>
+                            <p>SIGN UP YOUR NEWSLETTER</p>
+                        </div>
+                        <div class="row input">
+                            <div class="col-md-8 input">
+                                <form action="" class="form">
+                                    <input type="email" placeholder="EMAIL ADDRESS" pattern="[0-9] [0-9] [0-9]"
+                                        minlength="5" maxlength="12" required>
+                                    <button type="submit">GO</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container back">
+                <h1 id="ltd">© 2015 business Ltd. allright reserved</h1>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- FOOTER-SECTİON -->
+    <script src="js/responsive-menu.js"></script>
+
+    <script src="js/search-button.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
